@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom/client';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>ok</h1>
+    <h1>Del Consult</h1>
   </React.StrictMode>,
 );
