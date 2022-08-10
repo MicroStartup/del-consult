@@ -17,7 +17,12 @@ const Navbar = () => {
          </ul>
          </div>
       </div>
-       <MenuIcon className='w-5'/> 
+      <div className='hidden md:flex pr-4'>
+          <button className='px-8 py-3'>QUOTE</button>
+        </div>
+        <div className='md:hidden mr-4'>
+            <MenuIcon className='w-5' />
+        </div>
     </div>
   )
 }
