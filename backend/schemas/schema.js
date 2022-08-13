@@ -9,6 +9,7 @@ import contact from './contact'
 import projects from './projects'
 import services from './services'
 import quoteRequest from './quoteRequest'
+import news from './news'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -22,6 +23,7 @@ export default createSchema({
     contact,
     projects,
     services,
-    quoteRequest
+    quoteRequest,
+    news
   ]),
 })
