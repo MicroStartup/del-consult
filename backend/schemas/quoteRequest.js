@@ -15,7 +15,7 @@ export default {
             {
                 name:'details',
                 title:'Details',
-                type:'Text'
+                type:'text'
             },
             {
                 name:'quantiy',
