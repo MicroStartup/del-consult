@@ -29,6 +29,11 @@ export default {
             type:'string'
         },
         {
+            name:'subject',
+            title:'Subject',
+            type:'string'
+        },
+        {
             name:'message',
             title:'Message',
             type:'text'
