@@ -5,7 +5,11 @@ import './Navbar.scss';
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav>Navbar
+       <div>
+          <img src={images.logo} alt="Fake logo" />
+       </div>
+    </nav>
   )
 }
 
