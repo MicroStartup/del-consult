@@ -1,5 +1,7 @@
 import './App.css';
 
+import { About, Footer, Header, Contact, Projects, Services, Testamonial } from './container';
+
 const App = () => {
   return (
     <div>
