@@ -4,8 +4,14 @@ import { About, Footer, Header, Contact, Projects, Services, Testamonial } from 
 
 const App = () => {
   return (
-    <div>
-       <h1>Del consult</h1>
+    <div className='app'>
+       <Header />
+       <About />
+       <Services/>
+       <Projects/>
+       <Testamonial/>
+       <Contact/>
+       <Footer/>
     </div>
   );
 }
