@@ -1,4 +1,5 @@
 import React from 'react'
+import './Testamonial.scss';
 
 const Testamonial = () => {
   return (
