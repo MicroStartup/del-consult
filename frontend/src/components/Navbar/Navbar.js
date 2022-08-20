@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         ))}
        </ul>
        <div className="app__navbar-menu">
-
+          <HiMenuAlt4 onClick={() => setToggle(false)} />
        </div>
     </nav>
   )
