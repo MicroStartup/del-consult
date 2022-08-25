@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import './App.css';
 
 import { About, Footer, Header, Contact, Projects, Services, Testamonial } from './container';
