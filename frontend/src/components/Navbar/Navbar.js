@@ -20,6 +20,9 @@ const Navbar = () => {
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
+        <li>
+          <button>QUOTE</button>
+        </li>
       </ul>
 
       <div className="app__navbar-menu">

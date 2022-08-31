@@ -17,7 +17,7 @@ const Header = () => {
       <div className="app__header-column">
       <div className="badge-cmp app__flex">
           <div className="comp_intro">
-            <h1 className="head-text">Del consult</h1>
+            <h1 className="head-text">Del Consult</h1>
             <p className="p-text">
             At BAE Systems, our advanced defence technology protects people and national security, and keeps critical information and infrastructure secure. We search for new ways to provide our customers with a competitive edge across the air, maritime, land and cyber domains. We employ a skilled workforce of 90,500 people in more than 40 countries, and work closely with local partners to support economic development by transferring knowledge, skills and technology.
             </p>
