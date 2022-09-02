@@ -9,7 +9,10 @@ const About = () => {
         <div className='max-w-[1240px] mx-auto'>
             <div className=''>
                 <h2 className='text-5xl font-bold'>Site and Civil Engineering Services</h2>
-                <p className='text-2xl py-6 text-gray-500'>From a small building addition to a major expansion, KCI conducts feasibility studies, prepares conceptual and final designs, and produces construction documents as we shepherd each project through the local permitting and regulatory processes. Our LEED- and ISI Envision-accredited engineers and planners prepare sustainable site plans that incorporate water efficient landscaping, water use reduction, innovative stormwater management, reduced site disturbance, and construction waste management to maximize green building potential.</p>
+                <p className='text-2xl py-6 text-gray-500'>
+                At Del Consult , we provide our clients with timeless and modern designs to meet their needs while ensuring that Net zero carbon is achieved as we ought to combat climate change. Our engineering services include; Structural designs, retrofitting design of an existing structure, Renovations, Structural integrity Assessment,
+                 underpinning of existing foundation and others
+                </p>
             </div>
 
             <div className='grid md:grid-cols-4 gap-8 px-2 text-center mt-20'>
