@@ -1,21 +1,18 @@
-import './App.css';
+import About from "./components/About"
+import Home from "./components/Home"
+import Navbar from "./components/Navbar"
+import Contact from "./components/Contact"
 
-import { About, Footer, Header, Contact, Projects, Services, Testamonial } from './container';
-import { Navbar } from './components';
 
-const App = () => {
+export const App = () => {
   return (
-    <div className='app'>
-       <Navbar />
-       <Header />
+    <>
+       <Navbar/>
+       <Home />
        <About />
-       <Services/>
-       <Projects/>
-       <Testamonial/>
-       <Contact/>
-       <Footer/>
-    </div>
-  );
+       <Contact />
+    </>
+  )
 }
 
-export default App;
+export default App
