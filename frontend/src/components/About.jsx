@@ -1,7 +1,7 @@
 import React from 'react'
+import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
 
 import { images } from '../constants';
-import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
 
 const About = () => {
   return (
@@ -14,8 +14,8 @@ const About = () => {
                  underpinning of existing foundation and others
                 </p>
             </div>
-
-            <div className='grid md:grid-cols-4 gap-8 px-2 text-center mt-20'>
+        </div>
+        <div className='grid md:grid-cols-4 gap-8 px-12 text-center mt-20'>
                 <div className='border py-8 rounded-xl shadow-xl' >
                     <div className='text-gray-500 flex justify-center'> <ClockIcon className='w-[100px]' /></div>
                     <p className='text-xl mt-2'>Save time</p>
@@ -33,7 +33,6 @@ const About = () => {
                     <p className='text-xl mt-2'>Transactions</p>
                 </div>
             </div>
-        </div>
     </div>
   )
 }
