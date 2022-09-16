@@ -1,6 +1,8 @@
 import React from 'react'
 import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
 
+import { images } from '../constants'
+
 const Services = () => {
   return (
     <div name='about' className='w-full my-32'>
@@ -15,20 +17,28 @@ const Services = () => {
             </div>
         </div>
         <div className='grid md:grid-cols-4 gap-8 px-12 text-center mt-20'>
-                <div className='border py-8 rounded-xl shadow-xl' >
-                    <div className='text-gray-500 flex justify-center'> <ClockIcon className='w-[100px]' /></div>
+                <div className='border py-8 rounded-xl shadow-xl hover:bg-gray-200'>
+                    <div className='text-gray-500 flex justify-center'> 
+                      <img className='h-48 min-h-0 rounded-md' src={images.architecture} alt="/" />
+                    </div>
                     <p className='text-xl mt-2'>Structural Designs</p>
                 </div>
-                <div  className='border py-8 rounded-xl shadow-xl' >
-                   <div className='text-gray-500 flex justify-center'> <ChatBubbleLeftRightIcon className='w-[100px]' /></div>
+                <div  className='border py-8 rounded-xl shadow-xl hover:bg-gray-200' >
+                   <div className='text-gray-500 flex justify-center'> 
+                      <img className='h-48 min-h-0 rounded-md' src={images.estimation} alt="/" />
+                   </div>
                    <p className='text-xl mt-2'>Quantity Estimations</p>
                 </div>
-                <div className='border py-8 rounded-xl shadow-xl' >
-                <div className='text-gray-500 flex justify-center'> <LockClosedIcon className='w-[100px]' /></div>
+                <div className='border py-8 rounded-xl shadow-xl hover:bg-gray-200' >
+                    <div className='text-gray-500 flex justify-center'> 
+                      <img className='h-48 min-h-0 rounded-md' src={images.archi_design} alt="/" />
+                    </div>
                     <p className='text-xl mt-2'>Architectural Designs</p>
                 </div>
-                <div className='border py-8 rounded-xl shadow-xl' >
-                <div className='text-gray-500 flex justify-center'> <BanknotesIcon className='w-[100px]' /></div>
+                <div className='border py-8 rounded-xl shadow-xl hover:bg-gray-200' >
+                    <div className='text-gray-500 flex justify-center'> 
+                      <img className='h-48 min-h-0 rounded-md' src={images.building} alt="/" />
+                    </div>
                     <p className='text-xl mt-2'>Construction Supervision</p>
                 </div>
             </div>
