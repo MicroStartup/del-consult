@@ -30,7 +30,7 @@ const About = () => {
                 </div>
                 <div className='border py-8 rounded-xl shadow-xl' >
                 <div className='text-gray-500 flex justify-center'> <BanknotesIcon className='w-[100px]' /></div>
-                    <p className='text-xl mt-2'>Transactions</p>
+                    <p className='text-xl mt-2'>Trust</p>
                 </div>
             </div>
     </div>
