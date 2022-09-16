@@ -8,7 +8,7 @@ const Services = () => {
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className=''>
-                <h2 className='text-5xl font-bold'>We provide!</h2>
+                <h2 className='text-5xl font-bold'>What we provide!</h2>
                 <p className='text-2xl py-6 text-gray-500'>
                 At Del Consult , Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Morbi tincidunt augue interdum velit euismod in.
