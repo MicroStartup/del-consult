@@ -3,6 +3,7 @@ import Home from "./components/Home"
 import Navbar from "./components/Navbar"
 import Contact from "./components/Contact"
 import Services from "./components/Services"
+import Projects from "./components/Projects"
 
 
 export const App = () => {
@@ -12,6 +13,7 @@ export const App = () => {
        <Home />
        <About />
        <Services />
+       <Projects />
        <Contact />
     </>
   )
