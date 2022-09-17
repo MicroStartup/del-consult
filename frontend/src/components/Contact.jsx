@@ -3,7 +3,7 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 const Contact = () => {
   return (
-    <div class="flex w-full bg-white min-h-screen justify-center px-2 items-center">
+    <div class="flex w-full bg-gray-400 min-h-screen justify-center px-2 items-center">
         <div 
             class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gray-300 w-full mx-28 p-2 sm:p-12 rounded-xl shadow-lg"
         >
