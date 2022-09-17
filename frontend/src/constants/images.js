@@ -10,6 +10,8 @@ import firstp from '../assets/firstp.JPG';
 import lastp from '../assets/lastp.JPG';
 import secondp from '../assets/secondp.JPG';
 import thirdp from '../assets/thirdp.JPG';
+import estimations from '../assets/estimations.jpg';
+import fifthp from '../assets/fifthp.jpg';
 
 
 export default {
@@ -25,4 +27,6 @@ export default {
     secondp,
     lastp,
     firstp,
+    estimations,
+    fifthp,
 };
