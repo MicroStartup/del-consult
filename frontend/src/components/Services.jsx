@@ -5,7 +5,7 @@ import { images } from '../constants'
 
 const Services = () => {
   return (
-    <div name='about' className='w-full my-32'>
+    <div name='service' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className=''>
                 <h2 className='text-5xl font-bold'>What we provide!</h2>
