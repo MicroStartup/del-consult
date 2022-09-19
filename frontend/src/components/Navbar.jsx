@@ -15,11 +15,11 @@ const Navbar = () => {
              <div className='flex items-center'>
                 <h1 className='font-bold text-[20px]'>Del Consult</h1>
                 <ul className='hidden md:flex'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+                    <li><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
+                    <li><Link to="support" smooth={true} offset={-50} duration={500}>Services</Link></li>
+                    <li><Link to="platforms" smooth={true} offset={-100} duration={500}>Projects</Link></li>
+                    <li><Link to="pricing" smooth={true} offset={-50} duration={500}>Contact</Link></li>
                 </ul>
              </div>
             <div className='hidden md:flex pr-4'>
