@@ -1,8 +1,6 @@
 import React from 'react'
 import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
 
-import { images } from '../constants';
-
 const About = () => {
   return (
     <div name='about' className='w-full my-32'>
