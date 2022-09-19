@@ -1,7 +1,5 @@
 import React from 'react'
-
 import { images } from '../constants';
-import { TruckIcon, HomeIcon, HomeModernIcon } from '@heroicons/react/24/solid'
 
 const Home = () => {
   return (

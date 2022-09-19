@@ -1,6 +1,4 @@
 import React from 'react'
-import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
-
 import { images } from '../constants'
 
 const Services = () => {
