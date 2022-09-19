@@ -106,7 +106,7 @@ const Contact = () => {
                         class="ring-1 ring-gray-300 w-full rounded-md mt-2 px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500">
                         </textarea>
                     </div>
-                    <button class="inline-block self-end bg-gray-500 text-white font-bold rounded-lg px-6 py-2 upppercase text-sm">Send Message</button>
+                    <button class="inline-block self-end bg-red-500 text-white font-bold rounded-lg px-6 py-2 upppercase text-sm">Send Message</button>
                 </form>
                 </div>
             </div>
