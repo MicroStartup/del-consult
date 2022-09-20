@@ -1,7 +1,5 @@
 import React from 'react'
-
 import { images } from '../constants';
-import { TruckIcon, HomeIcon, HomeModernIcon } from '@heroicons/react/24/solid'
 
 const Home = () => {
   return (
@@ -10,7 +8,7 @@ const Home = () => {
             <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
                 <p className='text-2xl'>Welcome to </p>
                 <h1 className='py-3 text-6xl md:text-7xl font-bold'>Del Consult</h1>
-                <p className='text-2xl'>Ghana Accra east legon.</p>
+                <p className='text-2xl'>Oyarifa, Accra-Ghana.</p>
                 <button className='py-3 px-6 sm:w-[60%] my-4'>Learn more about us</button>
             </div>
             <div>

@@ -1,17 +1,16 @@
 import React from 'react'
-import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
-
 import { images } from '../constants'
 
 const Services = () => {
   return (
-    <div name='about' className='w-full my-32'>
+    <div name='project' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className=''>
                 <h2 className='text-5xl font-bold'>Our Projects!</h2>
                 <p className='text-2xl py-6 text-gray-500'>
-                At Del Consult, Morbi tincidunt augue interdum velit euismod in.
-                Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Viverra tellus in hac habitasse platea dictumst.
+                In structural detailing, the project is initiated by the structural engineer. 
+                The architectural drawings are prepared by the architect to the required scale and 
+                specification given to him by the client. At Del Consult we fellow the right process during project implementation.
                 </p>
             </div>
         </div>

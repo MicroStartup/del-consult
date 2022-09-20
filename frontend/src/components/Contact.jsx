@@ -3,13 +3,13 @@ import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
 
 const Contact = () => {
   return (
-    <div class="flex w-full bg-white min-h-screen justify-center px-2 items-center">
+    <div name='contact' class="flex w-full bg-gray-400 min-h-screen justify-center px-2 items-center">
         <div 
             class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gray-300 w-full mx-28 p-2 sm:p-12 rounded-xl shadow-lg"
         >
-            <div class="flex flex-col space-y-8 justify-between">
+            <div class="flex flex-col space-y-8 px-30 justify-between">
                 <div class="flex flex-col"> 
-                    <h1 class="font-bold text-4xl tracking-wide">
+                    <h1 class="font-bold text-3xl w-90 tracking-wide">
                         STAY IN TOUCH WITH US
                     </h1>
                     <p class="pt-3 text-gray-500 text-xl"> 
@@ -106,7 +106,7 @@ const Contact = () => {
                         class="ring-1 ring-gray-300 w-full rounded-md mt-2 px-4 py-2 outline-none focus:ring-2 focus:ring-gray-500">
                         </textarea>
                     </div>
-                    <button class="inline-block self-end bg-gray-500 text-white font-bold rounded-lg px-6 py-2 upppercase text-sm">Send Message</button>
+                    <button class="inline-block self-end bg-red-500 text-white font-bold rounded-lg px-6 py-2 upppercase text-sm">Send Message</button>
                 </form>
                 </div>
             </div>

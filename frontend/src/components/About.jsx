@@ -1,8 +1,6 @@
 import React from 'react'
 import { ClockIcon, ChatBubbleLeftRightIcon, BanknotesIcon,  LockClosedIcon} from '@heroicons/react/24/solid'
 
-import { images } from '../constants';
-
 const About = () => {
   return (
     <div name='about' className='w-full my-32'>
@@ -10,8 +8,8 @@ const About = () => {
             <div className=''>
                 <h2 className='text-5xl font-bold'>Site and Civil Engineering Services</h2>
                 <p className='text-2xl py-6 text-gray-500'>
-                At Del Consult , we provide our Clients with timeless and modern designs to meet their needs while ensuring that Net zero carbon is achieved as we ought to combat climate change. Our engineering services include; Structural designs, retrofitting design of an existing structure, Renovations, Structural integrity Assessment,
-                 underpinning of existing foundation and others
+                <strike>At Del Consult , we provide our Clients with timeless and modern designs to meet their needs while ensuring that Net zero carbon is achieved as we ought to combat climate change. Our engineering services include; Structural designs, retrofitting design of an existing structure, Renovations, Structural integrity Assessment,
+                 underpinning of existing foundation and others.</strike>
                 </p>
             </div>
         </div>
