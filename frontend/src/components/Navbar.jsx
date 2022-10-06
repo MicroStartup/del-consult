@@ -25,7 +25,7 @@ const Navbar = () => {
                 </ul>
              </div>
             <div className='hidden md:flex pr-4'>
-              <button className='px-8 py-3'>Quotation</button>
+              <button className='px-8 py-3'>Get Quotation</button>
             </div>
             <div className='md:hidden mr-4' onClick={handleClick}>
                 {!nav ? <Bars3Icon className='w-5' />: <XMarkIcon className='w-5' />}
