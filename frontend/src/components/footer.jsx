@@ -7,7 +7,7 @@ const Footer = () => {
             <h1 class="">Copyright © 2022 Del Consult</h1>
         </div>
         <div>
-            <h1>Design by MicroStartup</h1>
+            <h1>Designed by MicroStartup</h1>
         </div>
     </div>
   )
