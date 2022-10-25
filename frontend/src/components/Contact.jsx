@@ -13,7 +13,7 @@ const Contact = () => {
                         STAY IN TOUCH WITH US
                     </h1>
                     <p class="pt-3 text-gray-500 text-xl"> 
-                    Let's get your dream house done for you. We always meet deadline for our Clients
+                    Let's get your dream house done for you on time. We always meet deadline for our Clients
                     
                     </p>
                 </div>
