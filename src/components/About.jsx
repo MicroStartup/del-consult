@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
-            <div className=''>
+            <div className='px-2'>
                 <h2 className='text-5xl font-bold'>Site and Civil Engineering Services</h2>
                 <p className='text-2xl py-6 text-gray-500'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
