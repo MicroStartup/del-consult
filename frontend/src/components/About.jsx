@@ -5,11 +5,12 @@ const About = () => {
   return (
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
-            <div className=''>
+            <div className='px-2'>
                 <h2 className='text-5xl font-bold'>Site and Civil Engineering Services</h2>
                 <p className='text-2xl py-6 text-gray-500'>
-                <strike>At Del Consult , we provide our Clients with timeless and modern designs to meet their needs while ensuring that Net zero carbon is achieved as we ought to combat climate change. Our engineering services include; Structural designs, retrofitting design of an existing structure, Renovations, Structural integrity Assessment,
-                 underpinning of existing foundation and others.</strike>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut tellus elementum sagittis vitae et. Magna etiam tempor orci eu.
+                Lectus quam id leo in vitae turpis massa.
                 </p>
             </div>
         </div>
