@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div name='service' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
-            <div className=''>
+            <div className='px-2'>
                 <h2 className='text-5xl font-bold'>What we provide!</h2>
                 <p className='text-2xl py-6 text-gray-500'>
                 At Del Consult , we provide our Clients with timeless and modern designs to meet their needs 
