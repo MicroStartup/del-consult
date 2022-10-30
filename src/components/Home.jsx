@@ -9,7 +9,7 @@ const Home = () => {
                 <p className='text-2xl'>Welcome to </p>
                 <h1 className='py-3 text-6xl md:text-7xl font-bold'>Del Consult</h1>
                 <p className='text-2xl'>Oyarifa, Accra-Ghana.</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Learn more about us</button>
+                <button className='py-3 px-6 sm:w-[60%] my-4 rounded-md'>Learn more about us</button>
             </div>
             <div>
                 <img className='w-full' src={images.engineer_material} alt="/" />

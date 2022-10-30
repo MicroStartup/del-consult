@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { Link, animateScroll as scroll, } from 'react-scroll'
+import { images } from '../constants'
 
 
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
@@ -15,6 +16,7 @@ const Navbar = () => {
        <div className='w-screen h-[70px] z-10 bg-gray-200 border-b border-white-500 fixed'>
           <div className='px-2 flex justify-between items-center w-full h-full'>
              <div className='flex items-center'>
+                <img className='h-10 min-h-0 px-4' src={images.logo} alt="Company Logo" />
                 <h1 className='font-bold text-[20px]'>Del Consult</h1>
                 <ul className='hidden md:flex cursor-pointer'>
                     <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
@@ -25,7 +27,7 @@ const Navbar = () => {
                 </ul>
              </div>
             <div className='hidden md:flex pr-4'>
-              <button className='px-8 py-3'>Quotation</button>
+              <button className='px-8 py-3 rounded-md'>Quotation</button>
             </div>
             <div className='md:hidden mr-4' onClick={handleClick}>
                 {!nav ? <Bars3Icon className='w-5' />: <XMarkIcon className='w-5' />}
