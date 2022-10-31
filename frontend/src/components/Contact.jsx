@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div name='contact' class="flex w-full bg-gray-400 min-h-screen justify-center px-2 items-center ">
         <div 
-            class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gray-300 w-full mx-28 p-2 sm:p-12 rounded-xl shadow-lg"
+            class="flex flex-col md:flex-row md:space-x-6 md:space-y-0 space-y-6 bg-gray-300 w-full mx-10 p-2 sm:p-12 rounded-xl shadow-lg"
         >
             <div class="flex flex-col space-y-8 px-30 justify-between">
                 <div class="flex flex-col"> 
@@ -84,7 +84,7 @@ const Contact = () => {
             <div class="relative">
                 <div class="absolute z-0 w-40 h-40 bg-gray-400 rounded-full -right-12 -top-12">
                 </div>
-                <div class="absolute z-0 w-40 h-40 bg-white rounded-full -left-12 -bottom-12">
+                <div class="absolute z-0 w-40 h-40 bg-white rounded-full -left-12 -bottom-4">
                 </div>
                 <div class="relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-80">
                 <form action="" class="flex flex-col space-y-4">
